@@ -63,8 +63,8 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
 
-      - name: Generate configuration file
-        run: |
+      - name: Setup Debug Session
+        uses: csexton/debugger-action@master
 #          SSH_ACTIONS: true
 #          rm -f ./.config*
 #          touch ./.config
