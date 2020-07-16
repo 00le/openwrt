@@ -65,7 +65,7 @@ jobs:
 
       - name: Generate configuration file
         run: |
-          SSH_ACTIONS: true
+#          SSH_ACTIONS: true
 #          rm -f ./.config*
 #          touch ./.config
 
