@@ -6,6 +6,9 @@
 # 
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
+env:
+  SSH_ACTIONS: true
+
 
 name: OpenWrt-CI
 
