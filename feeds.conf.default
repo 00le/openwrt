@@ -12,5 +12,5 @@ src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/kenzok8/small
 src-git unlockmusic https://github.com/coolsnowwolf/lede/tree/master/package/lean/UnblockNeteaseMusic
 src-git unlockmusicGo https://github.com/coolsnowwolf/lede/tree/master/package/lean/UnblockNeteaseMusicGo
-src-git baidupcs-web https://github.com/coolsnowwolf/lede/tree/master/package/lean/baidupcs-web
-src-git luci-app-baidupcs-web https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-baidupcs-web
+src-git baidupcsweb https://github.com/coolsnowwolf/lede/tree/master/package/lean/baidupcs-web
+src-git luciappbaidupcsweb https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-baidupcs-web
