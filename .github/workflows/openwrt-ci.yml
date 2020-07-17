@@ -13,9 +13,12 @@ env:
 name: OpenWrt-CI
 
 on:
-  push:
-    branches: 
-      - master
+  watch:
+    type: started  
+  #点start开始运行，下面为修改即运行
+#  push:
+#    branches: 
+#      - master
   # schedule:
   #   - cron: 0 20 * * *
   # release:
@@ -27,7 +30,9 @@ jobs:
 
     name: Build OpenWrt
     runs-on: ubuntu-latest
-    if: github.event.repository.owner.id == github.event.sender.id
+    #为本人操作才运行
+    if: github.actor == github.event.repository.owner.login
+#    if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
 
