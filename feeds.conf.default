@@ -11,4 +11,3 @@ src-git freifunk https://github.com/freifunk/openwrt-packages.git
 src-git kenzo https://github.com/kenzok8/openwrt-packages.git
 src-git small https://github.com/kenzok8/small.git
 src-git normal https://github.com/00le/nogin.git
-src-git unblockneteasemusic https://github.com/maxlicheng/luci-app-unblockmusic
