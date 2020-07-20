@@ -7,3 +7,4 @@ src-git package https://github.com/kenzok8/openwrt-packages
 src-git PasswallRelay https://github.com/kenzok8/small
 #
 src-git nogin https://github.com/00le/nogin
+src-git unblocknetease https://github.com/maxlicheng/luci-app-unblockmusic
